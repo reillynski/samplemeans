@@ -1,22 +1,20 @@
-Package: twelvedays
-Title: Sing the 12 Days of Christmas
+Package: samplemeans
+Title: Sample Mean Calculation Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Kelly",
-           family = "Bodwin",
+    person(given = "Reilly",
+           family = "Salkowski",
            role = c("aut", "cre"),
-           email = "kelly@bodwin.us")
+           email = "rsalkows@calpoly.edu")
 Description: This is a practice package for coursework.
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr,
-    glue,
-    stringr,
     magrittr,
     purrr
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Suggests: 
     testthat
